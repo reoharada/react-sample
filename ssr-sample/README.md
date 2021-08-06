@@ -1,5 +1,6 @@
 # ssr-sample
 React+ExpressのSSR（Server Side Rendering）サンプルコード
+
 https://medium.com/jspoint/a-beginners-guide-to-react-server-side-rendering-ssr-bf3853841d55
 
 # npmとnodeのバーション
@@ -20,9 +21,13 @@ $ npm install
 $ npm run start
 ```
 URL1: http://localhost:8088
+
 ※ 下記のスプレッドシートと通信している
+
 https://docs.google.com/spreadsheets/d/1q4xlzi3k9e0xill87ivc8dq4dlhjjofn8qctv1esnds/edit#gid=0
+
 注意 postのapiのエントリーポイントはexpress環境にあるため、postは失敗する
+
 URL2: http://localhost:8088/detail
 
 # ビルドファイル作成
@@ -50,6 +55,9 @@ SSR環境起動
 $ npm run start:ssr
 ```
 URL1: http://localhost:9000
+
 ※ 下記のスプレッドシートと通信している
+
 https://docs.google.com/spreadsheets/d/1q4xlzi3k9e0xill87ivc8dq4dlhjjofn8qctv1esnds/edit#gid=0
+
 URL2: http://localhost:9000/detail
